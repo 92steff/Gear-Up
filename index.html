@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>GEAR UP</title>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="js/gearup.js"></script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCxYSK5rxm5v2yVcbH50wBV3dRX9gyiHNQ&callback=initMap">
+    </script>
+    <link rel="stylesheet" type="text/css" href="css/gearup.css">
+    <link rel="icon" type="image/ico" href="pic/gear_up.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+</head>
+<body>
+    <div class="container col-10">
+        <header class="col-12">
+            <div class="logo">
+                <h1><a href="index.html" class="not">GEAR UP</a></h1>
+            </div>
+            
+            <div class="user">
+            <ul class="f_right">
+                <li>
+                    <a href="#" class="not">
+                        <i style="margin:0; font-size:30px" class="fa fa-shopping-cart"></i>
+                        <span class="cart_items">2</span>
+                    </a>
+                </li>
+                <li><a href="pages/sign_up.html">Sign up</a></li>
+                <span style="font-weight:bold">/</span>
+                <li><a href="pages/sign_in.html">Sign in</a></li>
+            </ul>
+                  
+                <form class="search">
+                    <input type="search" placeholder="Search..."><input type="image" src="pic/src.svg" class="not" style="background-color:white">
+                </form>
+
+            </div>    
+        </header>
+        
+        
+        
+        <nav class="col-12 gradient nav">
+            <ul>
+                <li class="dropdown"><a href="#" class="n">PRODUCTS</a>
+                    <ul class="gradient dropdown-menu">
+                        <li class="dropdown"><a href="#">Computers</a>
+                            <ul style="border-radius: 0 0 5px 0" class="dropdown-menu gradient">
+                                <li><a href="pages/desktop.html">Desktop</a></li>
+                                <li><a href="pages/laptop.html">Laptop</a></li>
+                                <li><a href="#">Tablet</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown"><a href="#">Telephones</a>
+                            <ul style="border-radius: 0 5px 5px 5px" class="dropdown-menu gradient">
+                                <li><a href="#">Huawei</a></li>
+                                <li><a href="#">IPhone</a></li>
+                                <li><a href="#">LG</a></li>
+                                <li><a href="#">Microsoft</a></li>
+                                <li><a href="#">Samsung</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown"><a href="#">TVs</a>
+                            <ul class="dropdown-menu radius gradient">
+                                <li><a href="#">Fox</a></li>
+                                <li><a href="#">LG</a></li>
+                                <li><a href="#">Philips</a></li>
+                                <li><a href="#">Samsung</a></li>
+                                <li><a href="#">Vivax</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Appliances</a></li>
+                        <li><a href="#">Illuminations</a></li>
+                    </ul>
+                </li>
+                <li><a href="pages/discount.html">DISCOUNT</a></li>
+                <li><a href="pages/stores.html">STORES</a></li>
+                <li><a href="pages/about_us.html">ABOUT US</a></li>
+                <li><a href="pages/contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+        
+        <div class="nav2 col-2">
+            
+            <div class="nav2_wrap">
+                <h4>Manufacturers</h4>
+                <ul id="list">
+                    <li class="list-item"><a href="#">Microsoft</a></li>
+                    <li class="list-item"><a href="#">Samsung</a></li>
+                    <li class="list-item"><a href="#">LG</a></li>
+                    <li class="list-item"><a href="#">Apple</a></li>
+                    <li class="list-item"><a href="#">Philips</a></li>
+                    <li class="list-item"><a href="#">Vox</a></li>
+                    <li class="list-item"><a href="#">Vivax</a></li>
+                    <li class="list-item"><a href="#">Dell</a></li>
+                    <li class="list-item"><a href="#">HP</a></li>
+                    <li class="list-item"><a href="#">Lenovo</a></li>
+                    <li class="list-item"><a href="#">Acer</a></li>
+                    <li class="list-item"><a href="#">Asus</a></li>
+                    <li class="list-item"><a href="#">Toshiba</a></li>
+                    <li class="list-item"><a href="#">Panasonic</a></li>
+                    <li class="list-item"><a href="#">Sony</a></li>
+                </ul><br>
+                <button class="sort submit" type="button" onclick="A_Z('list')">A-Z</button>
+                <button class="sort submit" type="button" onclick="Z_A('list')">Z-A</button>
+            </div>
+            
+            <div class="bot">
+                <p><b>Like us on:<b></p><br>
+                <a href="https://www.facebook.com" target="_blank"><img width="25px" src="pic/fcb.png"></a>
+                <a href="https://twitter.com" target="_blank"><img width="25px" src="pic/twt.png"></a>
+                <a href="https://www.instagram.com/" target="_blank"><img width="25px" src="pic/inst.png"></a>
+            </div>
+        </div>
+            
+        <section class="col-10">
+        
+                <div style="box-shadow: 0 0 10px" class="news col-8">
+                    <a href="#">
+                        <h2 style="text-align:center" class="h_news gradient">Brand new opening! Come and visit us at 48th Avenue 128!</h2>
+                        <img style="vertical-align:bottom" src='pic/opening.jpg' width="100%">
+                    </a>   
+                </div>
+                 
+            <div style="margin-top:50px" class="col-12 gradient">
+                <h4 class="h_news">WE RECOMMEND:</h4>
+            </div>
+            
+            
+                
+                    <div class="product col-3">
+                        <a href="pages/desktop_lenovo_ideacentre_y900.html">
+                            <div class="product_pic">
+                                <div class="price">
+                                    <span class="price_amount">1350&euro;</span>
+                                </div>
+                                <img src="pic/Lenovo4.jpg">
+                            </div>
+                            <div class="product_name">
+                                <h2>Lenovo Desktop IdeaCentre Y900, i5-6600K/16 GB/2TB/GF GTX 980/DVD</h2>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="product col-3">
+                        
+                        <a href="pages/desktop_lenovo_idea_centre_h3000_sff.html">
+                            <div class="product_pic">
+                                <img src="pic/Lenovo1.jpg">
+                                <div class="price">
+                                    <span class="price_amount">240&euro;</span>
+                                </div>
+                            </div>
+                            <div class="product_name">
+                                <h2>Lenovo Desktop IdeaCentre H30-00 SFF, J1800/4GB/500GB/ GF GT 720/DVD-RW/FreeDOS</h2>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="product col-3">
+                        
+                        <a href="pages/desktop_lenovo_thinkcentre_m700.html">
+                            <div class="product_pic">
+                                <img src="pic/Lenovo5.jpg">
+                                <div class="price">
+                                    <span class="price_amount">590&euro;</span>
+                                </div>
+                            </div>
+                            <div class="product_name">
+                                <h2>Lenovo Desktop ThinkCentre M700, Intel G4400/4GB/500GB/ Intel HD/DVDRW/No OS</h2>
+                            </div>
+                        </a>
+                    </div>
+                
+            
+                
+                    <div class="product col-3">
+                        
+                        <a href="pages/laptop_comp8.html">
+                            
+                            <div class="product_pic">
+                                <img src="pic/laptop_asus4.jpg">
+                                    <div class="price">
+                                        <span class="price_amount">850&euro;</span>
+                                    </div>
+                            </div>
+                            <div class="product_name">
+                                <h2>Asus GL552VX-DM272T Win10 15.6"FHD,Intel i7-6700HQ/ 12GB/1TB/GTX 950M 2GB</h2>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="product col-3">
+                        
+                        <a href="pages/laptop_comp9.html">
+                            
+                            <div class="product_pic">
+                                <img src="pic/laptop_asus5.jpg">
+                                    <div class="price">
+                                        <span class="price_amount">700&euro;</span>
+                                    </div>
+                            </div>
+                            <div class="product_name">
+                                <h2>Asus X540LJ-XX036D 15.6" Intel i3-4005U/4GB/500GB/ GF920M 2GB/BT/HDMI/Torba</h2>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="product col-3">
+                       
+                        <a href="pages/desktop_mac_pro_3.7ghz_qc_intel_xeon_e5_12gb_256gb_ssd_firepro_d300_2gb.html">
+                            <div class="product_pic">
+                                <img src="pic/Mac2.jpg">
+                                 <div class="price">
+                                    <span class="price_amount">3790&euro;</span>
+                                </div>
+                            </div>
+                            <div class="product_name">
+                                <h2>Mac Pro 3.5GHz 6C Intel Xeon E5/16GB/256GB SSD/FirePro D500 3GB</h2>
+                            </div>
+                        </a>
+                    </div>
+            
+            
+        </section>
+            
+        <aside class="col-2 nav2">
+            
+                <div class="aside_item">
+                    <div class="center">
+                        <img width="100px" height="75px" src="pic/truck.png">
+                        <p class="notify">Shipping all over the country</p> 
+                    </div>
+                </div>
+                <div class="aside_item">
+                    <div class="center">
+                        <img width="100px" height="75px" src="pic/cheque.png">
+                        <p class="notify">We offer deferred payment via cheques</p> 
+                    </div>
+                </div>
+                <div class="aside_item">
+                    <div class="center">
+                        <img width="100px" height="75px" src="pic/shop.png">
+                        <p class="notify">Over 100+ stores across the country</p>
+                    </div>
+                </div>
+            
+        </aside>
+            
+        <footer class="col-12">
+            
+            <div class="footy col-10">
+                <img width="200px" src="pic/pvm.png">
+                <img width="100px" src="pic/ver_visa.png">
+                <img width="100px" src="pic/sec_code.png">
+                <img width="200px" src="pic/kom_banka.png">
+                <img width="150px" src="pic/raiff.png">
+                <p class="dev">eCommerce v2.0.0 Developed by Steff</p>
+                <br><br><br>
+                <hr>
+                
+                <ul>
+                    <li><a href="pages/about_us.html">About Gear Up</a></li><br>
+                    <li><a href="#">Company info</a></li> <span>|</span>
+                    <li><a href="#">News</a></li><br>
+                    <li><a href="#">Investors</a></li> <span>|</span>
+                    <li><a href="#">Careers</a></li><br>
+                    <li><a href="#">Advertise with us</a></li> <span>|</span>
+                    <li><a href="pages/contact.html">Tell us what you think</a></li>
+                </ul>
+                
+                <p class="dev"><a style="text-decoration:underline" href="#">User Agreement</a> <a style="text-decoration:underline" href="#">Privacy Notice</a> Copyright © 2003-2016 Gear Up Inc. All Rights Reserved. </p>
+            </div>
+        
+        </footer>
+            
+        
+    </div>
+</body>
+
+
+
+</html>

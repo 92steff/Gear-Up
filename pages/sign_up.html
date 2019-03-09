@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>GEAR UP</title>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="../js/gearup.js"></script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCxYSK5rxm5v2yVcbH50wBV3dRX9gyiHNQ&callback=initMap">
+    </script>
+    <link rel="stylesheet" type="text/css" href="../css/gearup.css">
+    <link rel="icon" type="image/ico" href="../pic/gear_up.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+</head>
+<body style="z-index:200">
+    <div class="container col-10">
+        <header class="col-12">
+            <div class="logo">
+                <h1><a href="../index.html" class="not">GEAR UP</a></h1>
+            </div>
+            
+            <ul class="f_right">
+                <li>
+                    <a href="#" class="not">
+                        <i style="margin:0; font-size:30px" class="fa fa-shopping-cart"></i>
+                        <span class="cart_items">2</span>
+                    </a>
+                </li>
+                <li><a href="sign_up.html">Sign up</a></li>
+                <span style="font-weight:bold">/</span>
+                <li><a href="sign_in.html">Sign in</a></li>
+            </ul>
+                
+                    <form class="search">
+                        <input type="search" id="search" placeholder="Search..."><input type="image" src="../pic/src.svg" class="not" style="background-color:white">
+                    </form>
+                
+        </header>
+        
+        
+        
+        <nav class="col-12 gradient nav">
+            <ul>
+                <li class="dropdown"><a href="#" class="n">PRODUCTS</a>
+                    <ul class="gradient dropdown-menu">
+                        <li class="dropdown"><a href="#">Computers</a>
+                            <ul style="border-radius: 0 0 5px 0" class="dropdown-menu gradient">
+                                <li><a href="desktop.html">Desktop</a></li>
+                                <li><a href="laptop.html">Laptop</a></li>
+                                <li><a href="#">Tablet</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown"><a href="">Telephones</a>
+                            <ul style="border-radius: 0 5px 5px 5px" class="dropdown-menu gradient">
+                                <li><a href="pages/telephones_huawei.html">Huawei</a></li>
+                                <li><a href="#">IPhone</a></li>
+                                <li><a href="#">LG</a></li>
+                                <li><a href="#">Microsoft</a></li>
+                                <li><a href="#">Samsung</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown"><a href="#">TVs</a>
+                            <ul class="dropdown-menu radius gradient">
+                                <li><a href="#">Fox</a></li>
+                                <li><a href="#">LG</a></li>
+                                <li><a href="#">Philips</a></li>
+                                <li><a href="#">Samsung</a></li>
+                                <li><a href="#">Vivax</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Appliances</a></li>
+                        <li><a href="#">Illuminations</a></li>
+                    </ul>
+                </li>
+                <li><a href="discount.html">DISCOUNT</a></li>
+                <li><a href="stores.html">STORES</a></li>
+                <li><a href="about_us.html">ABOUT US</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+        
+        <div class="nav2 col-2">
+            
+            <div class="nav2_wrap">
+                <h4>Manufacturers</h4>
+                <ul id="list">
+                    <li><a href="#">Microsoft</a></li>
+                    <li><a href="#">Samsung</a></li>
+                    <li><a href="#">LG</a></li>
+                    <li><a href="#">Apple</a></li>
+                    <li><a href="#">Philips</a></li>
+                    <li><a href="#">Vox</a></li>
+                    <li><a href="#">Vivax</a></li>
+                    <li><a href="#">Dell</a></li>
+                    <li><a href="#">HP</a></li>
+                    <li><a href="#">Lenovo</a></li>
+                    <li><a href="#">Acer</a></li>
+                    <li><a href="#">Asus</a></li>
+                    <li><a href="#">Toshiba</a></li>
+                    <li><a href="#">Panasonic</a></li>
+                    <li><a href="#">Sony</a></li>
+                </ul><br>
+                <button class="sort submit" type="button" onclick="A_Z('list')">A-Z</button>
+                <button class="sort submit"  type="button" onclick="Z_A('list')">Z-A</button>
+            </div>
+            
+            <div class="bot">
+                <p><b>Like us on:<b></p><br>
+                <a href="https://www.facebook.com" target="_blank"><img width="25px" src="../pic/fcb.png"></a>
+                <a href="https://twitter.com" target="_blank"><img width="25px" src="../pic/twt.png"></a>
+                <a href="https://www.instagram.com/" target="_blank"><img width="25px" src="../pic/inst.png"></a>
+            </div>
+                    
+        </div>
+            
+        <section class="col-10">
+            
+            <div class="reg_head">
+            <h2>Create your account:</h2>
+            </div>
+            <hr class="hr_shadow">
+            
+            <div class="sign_form">
+                    
+                <div class="cnt">
+                
+                    <form action="some_page.com" method="get">
+                        <ul>
+                            <li>
+                                <label for="f_name" class="sign">First Name:</label>
+                                <input type="text" name="f_name">
+                            </li>
+                            <li>
+                                <label for="l_name" class="sign">Last Name:</label>
+                                <input type="text" name="l_name">
+                            </li>
+                            <li>
+                                <label for="e-mail" class="sign">E-mail:</label>
+                                <input type="email" name="e-mail">
+                            </li>
+                            <li>
+                                <label for="password" class="sign">Password:</label>
+                                <input type="password" name="password">
+                            </li>
+                            <li>
+                                <label for="re_password" class="sign">Password confirmation:</label>
+                                <input type="email" name="e-mail">
+                            </li>
+                            <li>
+                                <label for="birthday" class="sign">Date of birth:</label>
+                                <select name="birthday_day">
+                                    <option value="" disabled selected>Day</option>
+                                    <option value="01">1</option>
+                                    <option value="02">2</option>
+                                    <option value="03">3</option>
+                                    <option value="04">4</option>
+                                    <option value="05">5</option>
+                                    <option value="06">6</option>
+                                    <option value="07">7</option>
+                                    <option value="08">8</option>
+                                    <option value="09">9</option>
+                                    <option value="10">10</option>
+                                    <option value="11">11</option>
+                                    <option value="12">12</option>
+                                    <option value="13">13</option>
+                                    <option value="14">14</option>
+                                    <option value="15">15</option>
+                                    <option value="16">16</option>
+                                    <option value="17">17</option>
+                                    <option value="18">18</option>
+                                    <option value="19">19</option>
+                                    <option value="20">20</option>
+                                    <option value="21">21</option>
+                                    <option value="22">22</option>
+                                    <option value="23">23</option>
+                                    <option value="24">24</option>
+                                    <option value="25">25</option>
+                                    <option value="26">26</option>
+                                    <option value="27">27</option>
+                                    <option value="28">28</option>
+                                    <option value="29">29</option>
+                                    <option value="30">30</option>
+                                    <option value="31">31</option>
+                                </select>
+                                <select name="birthday_month">
+                                    <option value="" disabled selected>Month</option>
+                                    <option value="january">January</option>
+                                    <option value="february">February</option>
+                                    <option value="march">March</option>
+                                    <option value="april">April</option>
+                                    <option value="may">May</option>
+                                    <option value="june">June</option>
+                                    <option value="july">July</option>
+                                    <option value="august">August</option>
+                                    <option value="september">September</option>
+                                    <option value="oktober">Oktober</option>
+                                    <option value="november">November</option>
+                                    <option value="december">December</option>
+                                </select>
+                                <select name="birthday_year">
+                                    <option value="" disabled selected>Year</option>
+                                    <option value="2016">2016</option>
+                                    <option value="2015">2015</option>
+                                    <option value="2014">2014</option>
+                                    <option value="2013">2013</option>
+                                    <option value="2012">2012</option>
+                                    <option value="2011">2011</option>
+                                    <option value="2010">2010</option>
+                                    <option value="2009">2009</option>
+                                    <option value="2008">2008</option>
+                                    <option value="2007">2007</option>
+                                    <option value="2006">2006</option>
+                                    <option value="2005">2005</option>
+                                    <option value="2004">2004</option>
+                                    <option value="2003">2003</option>
+                                    <option value="2002">2002</option>
+                                    <option value="2001">2001</option>
+                                    <option value="2000">2000</option>
+                                    <option value="1999">1999</option>
+                                    <option value="1998">1998</option>
+                                    <option value="1997">1997</option>
+                                    <option value="1996">1996</option>
+                                    <option value="1995">1995</option>
+                                    <option value="1994">1994</option>
+                                    <option value="1993">1993</option>
+                                    <option value="1992">1992</option>
+                                    <option value="1991">1991</option>
+                                    <option value="1990">1990</option>
+                                    <option value="1989">1989</option>
+                                    <option value="1988">1988</option>
+                                    <option value="1987">1987</option>
+                                    <option value="1986">1986</option>
+                                    <option value="1985">1985</option>
+                                    <option value="1984">1984</option>
+                                    <option value="1983">1983</option>
+                                    <option value="1982">1982</option>
+                                    <option value="1981">1981</option>
+                                    <option value="1980">1980</option>
+                                    <option value="1979">1979</option>
+                                    <option value="1978">1978</option>
+                                    <option value="1977">1977</option>
+                                    <option value="1976">1976</option>
+                                    <option value="1975">1975</option>
+                                    <option value="1974">1974</option>
+                                    <option value="1973">1973</option>
+                                    <option value="1972">1972</option>
+                                    <option value="1971">1971</option>
+                                    <option value="1970">1970</option>
+                                    <option value="1969">1969</option>
+                                    <option value="1968">1968</option>            
+                                    <option value="1967">1967</option>
+                                    <option value="1966">1966</option>
+                                    <option value="1965">1965</option>
+                                    <option value="1964">1964</option>
+                                    <option value="1963">1963</option>
+                                    <option value="1962">1962</option>
+                                    <option value="1961">1961</option>
+                                    <option value="1960">1960</option>
+                                    <option value="1959">1959</option>
+                                    <option value="1958">1958</option>
+                                    <option value="1957">1957</option>
+                                    <option value="1956">1956</option>
+                                    <option value="1955">1955</option>
+                                    <option value="1954">1954</option>
+                                    <option value="1953">1953</option>
+                                    <option value="1952">1952</option>
+                                    <option value="1951">1951</option>
+                                    <option value="1950">1950</option>
+                                    <option value="1949">1949</option>
+                                    <option value="1948">1948</option>
+                                    <option value="1947">1947</option>
+                                    <option value="1946">1946</option>
+                                    <option value="1945">1945</option>
+                                    <option value="1944">1944</option>
+                                    <option value="1943">1943</option>
+                                    <option value="1942">1942</option>
+                                    <option value="1941">1941</option>
+                                    <option value="1940">1940</option>
+                                    <option value="1939">1939</option>
+                                    <option value="1938">1938</option>
+                                    <option value="1937">1937</option>
+                                    <option value="1936">1936</option>
+                                    <option value="1935">1935</option>
+                                    <option value="1934">1934</option>
+                                    <option value="1933">1933</option>
+                                    <option value="1932">1932</option>
+                                    <option value="1931">1931</option>
+                                    <option value="1930">1930</option>
+                                    <option value="1929">1929</option>
+                                    <option value="1928">1928</option>
+                                    <option value="1927">1927</option>
+                                    <option value="1926">1926</option>
+                                    <option value="1925">1925</option>
+                                    <option value="1924">1924</option>
+                                    <option value="1923">1923</option>
+                                    <option value="1922">1922</option>
+                                    <option value="1921">1921</option>
+                                    <option value="1920">1920</option>
+                                    <option value="1919">1919</option>
+                                    <option value="1918">1918</option>
+                                    <option value="1917">1917</option>
+                                    <option value="1916">1916</option>  
+                                </select>
+                            </li>
+                            <li>
+                                <label for="city" class="sign">City:</label>
+                                <input type="text" name="city">
+                            </li>
+                            <li>
+                                <label for="adress" class="sign">Adress:</label>
+                                <input type="text" name="adress">
+                            </li>
+                            <li>
+                                <label for="telephone" class="sign">Mobile number:</label>
+                                <input type="text" name="telephone">
+                            </li>
+                                <ul style="margin-left:16%">
+                                    <li>
+                                        <input style="width:20px" class="not" type="checkbox" name="approval" checked>
+                                        <label class="checkbox sign" for="approval">By clicking Register, you agree to Gear Up's <a style="text-decoration:underline" href="#">Conditions of Use</a> and <a style="text-decoration:underline" href="#">Privacy Notice</a>.</label>
+                                    </li>
+                                </ul>   
+                            <li>
+                                <input style="width:75px; margin-left: 15px; margin-top:10px; padding:4px; box-sizing:content-box" value="Register" type="submit" name="submit" class="not">
+                            </li>
+                        </ul>
+                    </form>
+                
+                </div>
+                   
+            </div>
+            
+        </section>
+        
+        <aside class="col-2 nav2">
+            
+                <div class="aside_item">
+                    <div class="center">
+                        <img width="100px" height="75px" src="../pic/truck.png">
+                        <p class="notify">Shipping all over the country</p> 
+                    </div>
+                </div>
+                <div class="aside_item">
+                    <div class="center">
+                        <img width="100px" height="75px" src="../pic/cheque.png">
+                        <p class="notify">We offer deferred payment via cheques</p> 
+                    </div>
+                </div>
+                <div class="aside_item">
+                    <div class="center">
+                        <img width="100px" height="75px" src="../pic/shop.png">
+                        <p class="notify">Over 100+ stores across the country</p>
+                    </div>
+                </div>
+            
+        </aside>
+            
+        <footer class="col-12">
+             
+            <div class="footy col-10">
+                <img width="200px" src="../pic/pvm.png">
+                <img width="100px" src="../pic/ver_visa.png">
+                <img width="100px" src="../pic/sec_code.png">
+                <img width="200px" src="../pic/kom_banka.png">
+                <img width="150px" src="../pic/raiff.png">
+                <p class="dev">eCommerce v2.0.0 Developed by Steff</p>
+                <br><br><br>
+                <hr>
+                
+                <ul>
+                    <li><a href="about_us.html">About Gear Up</a></li><br>
+                    <li><a href="#">Company info</a></li> <span>|</span>
+                    <li><a href="#">News</a></li><br>
+                    <li><a href="#">Investors</a></li> <span>|</span>
+                    <li><a href="#">Careers</a></li><br>
+                    <li><a href="#">Advertise with us</a></li> <span>|</span>
+                    <li><a href="contact.html">Tell us what you think</a></li>
+                </ul>
+                
+                <p class="dev"><a style="text-decoration:underline" href="#">User Agreement</a> <a style="text-decoration:underline" href="#">Privacy Notice</a> Copyright © 2003-2016 Gear Up Inc. All Rights Reserved. </p>
+            </div>
+        
+        </footer>
+            
+        
+    </div>
+</body>
+
+
+
+</html>

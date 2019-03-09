@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>GEAR UP</title>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="../js/gearup.js"></script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCxYSK5rxm5v2yVcbH50wBV3dRX9gyiHNQ&callback=initMap">
+    </script>
+    <link rel="stylesheet" type="text/css" href="../css/gearup.css">
+    <link rel="icon" type="image/ico" href="../pic/gear_up.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container col-10">
+        <header class="col-12">
+            <div class="logo">
+                <h1><a href="../index.html" class="not">GEAR UP</a></h1>
+            </div>
+            
+            <ul class="f_right">
+                <li>
+                    <a href="#" class="not">
+                        <i style="margin:0; font-size:30px" class="fa fa-shopping-cart"></i>
+                        <span class="cart_items">2</span>
+                    </a>
+                </li>
+                <li><a href="sign_up.html">Sign up</a></li>
+                <span style="font-weight:bold">/</span>
+                <li><a href="sign_in.html">Sign in</a></li>
+            </ul>
+            
+                <form class="search">
+                    <input type="search" id="search" placeholder="Search..."><input type="image" src="../pic/src.svg" class="not" style="background-color:white">
+                </form>
+            
+        </header>
+        
+        
+        
+        <nav class="col-12 gradient nav">
+            <ul>
+                <li class="dropdown"><a href="#" class="n">PRODUCTS</a>
+                    <ul class="gradient dropdown-menu">
+                        <li class="dropdown"><a href="#">Computers</a>
+                            <ul style="border-radius: 0 0 5px 0" class="dropdown-menu gradient">
+                                <li><a href="desktop.html">Desktop</a></li>
+                                <li><a href="laptop.html">Laptop</a></li>
+                                <li><a href="#">Tablet</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown"><a href="">Telephones</a>
+                            <ul style="border-radius: 0 5px 5px 5px" class="dropdown-menu gradient">
+                                <li><a href="pages/telephones_huawei.html">Huawei</a></li>
+                                <li><a href="#">IPhone</a></li>
+                                <li><a href="#">LG</a></li>
+                                <li><a href="#">Microsoft</a></li>
+                                <li><a href="#">Samsung</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown"><a href="#">TVs</a>
+                            <ul class="dropdown-menu radius gradient">
+                                <li><a href="#">Fox</a></li>
+                                <li><a href="#">LG</a></li>
+                                <li><a href="#">Philips</a></li>
+                                <li><a href="#">Samsung</a></li>
+                                <li><a href="#">Vivax</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Appliances</a></li>
+                        <li><a href="#">Illuminations</a></li>
+                    </ul>
+                </li>
+                <li><a href="discount.html">DISCOUNT</a></li>
+                <li><a href="stores.html">STORES</a></li>
+                <li><a href="about_us.html">ABOUT US</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+        
+        <div class="nav2 col-2">
+            
+            <div class="nav2_wrap">
+                <h4>Manufacturers</h4>
+                <ul id="list">
+                    <li><a href="#">Microsoft</a></li>
+                    <li><a href="#">Samsung</a></li>
+                    <li><a href="#">LG</a></li>
+                    <li><a href="#">Apple</a></li>
+                    <li><a href="#">Philips</a></li>
+                    <li><a href="#">Vox</a></li>
+                    <li><a href="#">Vivax</a></li>
+                    <li><a href="#">Dell</a></li>
+                    <li><a href="#">HP</a></li>
+                    <li><a href="#">Lenovo</a></li>
+                    <li><a href="#">Acer</a></li>
+                    <li><a href="#">Asus</a></li>
+                    <li><a href="#">Toshiba</a></li>
+                    <li><a href="#">Panasonic</a></li>
+                    <li><a href="#">Sony</a></li>
+                </ul><br>
+                <button class="sort submit" type="button" onclick="A_Z('list')">A-Z</button>
+                <button class="sort submit"  type="button" onclick="Z_A('list')">Z-A</button>
+            </div>
+            
+            <div class="bot">
+                <p><b>Like us on:<b></p><br>
+                <a href="https://www.facebook.com" target="_blank"><img width="25px" src="../pic/fcb.png"></a>
+                <a href="https://twitter.com" target="_blank"><img width="25px" src="../pic/twt.png"></a>
+                <a href="https://www.instagram.com/" target="_blank"><img width="25px" src="../pic/inst.png"></a>
+            </div>
+                    
+        </div>
+            
+        <section class="col-10">
+                
+            <div class="col-11 discount gradient">
+                
+                <div class="discount-wrapper">
+                    <p style="font-size:30px">Do you have our loyalty card?</p>
+                    <img src="../pic/loyalty_card.png" width="250" height="180">
+                </div>
+                
+                <div class="discount_desc">
+                    
+                    <div class="discount-wrapper" style="margin-top:3%">  
+                        
+                        <p style="text-indent:-15px; line-height:30px; text-decoration:underline">Just some of the benefits you can get with this card:</p>
+                        <ul>
+                            <li>Get 5% discount on all our products and additional 10% on your first ever purchase with your loyalty card</li>
+                            <li>Acquire 30% discount on every 3rd purchase</li>
+                            <li>Collect points that come with every purchase and achieve possibility for even more discount</li>
+                            <li>Participate in our lottery and get some cool gifts</li>
+                        </ul>
+                        
+                    </div>
+                    
+                </div>
+                
+            </div>
+            <div style="height:20%" class="col-11 discount gradient">
+                
+                <p class="discount-p">
+                    Evert 1st Monday of the month we will reward our lucky winner who has collected the most points over the past month.
+                <br>
+                    You can always take a look on your current score on this page down bellow .
+                <br>
+                    Also be sure to follow us on Facebook, Twitter and Instagram so you don't miss some of our special offers, discounts and many more!
+                </p>
+                
+                
+            </div>
+            
+            <div class="ladder gradient">
+            
+                <table>
+                
+                    <thead>CURRENT RANKING:</thead>
+                    <tbody>
+                    
+                        <tr>
+                            <td>1.</td>
+                            <td>Simon Nash</td>
+                            <td>1589 points</td>
+                        </tr>
+                        <tr>
+                            <td>2.</td>
+                            <td>Uwe Gensheimer</td>
+                            <td>1328 points</td>
+                        </tr>
+                        <tr>
+                            <td>3.</td>
+                            <td>Peter Parker</td>
+                            <td>1313 points</td>
+                        </tr>
+                        <tr>
+                            <td>4.</td>
+                            <td>Barak Obama</td>
+                            <td>1141 points</td>
+                        </tr>
+                        <tr>
+                            <td>5.</td>
+                            <td>John Cena</td>
+                            <td>1001 points</td>
+                        </tr>
+                        <tr>
+                            <td>6.</td>
+                            <td>Tom Odell</td>
+                            <td>977 points</td>
+                        </tr>
+                        <tr>
+                            <td>7.</td>
+                            <td>Filippo Inzaghi</td>
+                            <td>883 points</td>
+                        </tr>
+                        <tr>
+                            <td>8.</td>
+                            <td>James Arthur</td>
+                            <td>845 points</td>
+                        </tr>
+                        <tr>
+                            <td>9.</td>
+                            <td>Charlie Sheen</td>
+                            <td>799 points</td>
+                        </tr>
+                        <tr>
+                            <td>10.</td>
+                            <td>Mike Tyson</td>
+                            <td>750 points</td>
+                        </tr>
+                        <tr>
+                            <td>11.</td>
+                            <td>Morgan Freeman</td>
+                            <td>742 points</td>
+                        </tr>
+                        <tr>
+                            <td>12.</td>
+                            <td>Bruce Willis</td>
+                            <td>702 points</td>
+                        </tr>
+                        <tr>
+                            <td>13.</td>
+                            <td>Luc Abalo</td>
+                            <td>689 points</td>
+                        </tr>
+                        <tr>
+                            <td>14.</td>
+                            <td>Sean Connery</td>
+                            <td>687 points</td>
+                        </tr>
+                        <tr>
+                            <td>15.</td>
+                            <td>Liam Neeson</td>
+                            <td>642 points</td>
+                        </tr>
+                    </tbody>
+                
+                </table>
+                
+            </div>  
+            
+            <div class="prize">
+                
+                <div class="skew">
+                    PRIZE
+                </div>
+                
+                <img src="../pic/gaming_gear.png" style="float:left">   
+                
+            </div>
+            
+        </section>
+        
+        <aside class="col-2 nav2">
+            
+                <div class="aside_item">
+                    <div class="center">
+                        <img width="100px" height="75px" src="../pic/truck.png">
+                        <p class="notify">Shipping all over the country</p> 
+                    </div>
+                </div>
+                <div class="aside_item">
+                    <div class="center">
+                        <img width="100px" height="75px" src="../pic/cheque.png">
+                        <p class="notify">We offer deferred payment via cheques</p> 
+                    </div>
+                </div>
+                <div class="aside_item">
+                    <div class="center">
+                        <img width="100px" height="75px" src="../pic/shop.png">
+                        <p class="notify">Over 100+ stores across the country</p>
+                    </div>
+                </div>
+            
+        </aside>
+            
+        <footer class="col-12">
+            
+            <div class="footy col-10">
+                <img width="200px" src="../pic/pvm.png">
+                <img width="100px" src="../pic/ver_visa.png">
+                <img width="100px" src="../pic/sec_code.png">
+                <img width="200px" src="../pic/kom_banka.png">
+                <img width="150px" src="../pic/raiff.png">
+                <p class="dev">eCommerce v2.0.0 Developed by Steff</p>
+                <br><br><br>
+                <hr>
+                
+                <ul>
+                    <li><a href="about_us.html">About Gear Up</a></li><br>
+                    <li><a href="#">Company info</a></li> <span>|</span>
+                    <li><a href="#">News</a></li><br>
+                    <li><a href="#">Investors</a></li> <span>|</span>
+                    <li><a href="#">Careers</a></li><br>
+                    <li><a href="#">Advertise with us</a></li> <span>|</span>
+                    <li><a href="contact.html">Tell us what you think</a></li>
+                </ul>
+                
+                <p class="dev"><a style="text-decoration:underline" href="#">User Agreement</a> <a style="text-decoration:underline" href="#">Privacy Notice</a> Copyright © 2003-2016 Gear Up Inc. All Rights Reserved. </p>
+            </div>
+        
+        </footer>
+            
+        
+    </div>
+</body>
+
+
+
+</html>
